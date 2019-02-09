@@ -6,6 +6,6 @@ An official submission to the 2019 Global Game Jam 2019. Garbage Trash Adventure
 ## Links
 [Global Game Jam 2019: Garbage Trash Adventure](https://globalgamejam.org/2019/games/garbage-trash-adventure)
 ### Team Members
-[David Mann](https://mann.engineer)
-[Matt Wiltzius](https://github.com/mwiltzius)
-Corey Van Meekeran
+* [David Mann](https://mann.engineer)
+* [Matt Wiltzius](https://github.com/mwiltzius)
+* Corey Van Meekeran
