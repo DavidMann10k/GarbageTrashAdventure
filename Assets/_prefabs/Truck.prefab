@@ -780,8 +780,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472476129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5059, z: -0.15658}
-  m_LocalScale: {x: 2.43, y: 0.41, z: 4.47}
+  m_LocalPosition: {x: 0, y: 0.99, z: -0.15658}
+  m_LocalScale: {x: 1.45, y: 0.29, z: 4.27}
   m_Children: []
   m_Father: {fileID: 1422984064}
   m_RootOrder: 0
@@ -6827,6 +6827,7 @@ GameObject:
   - component: {fileID: 2056004513}
   - component: {fileID: 6614944428147504820}
   - component: {fileID: 6998565605405263090}
+  - component: {fileID: 752522312072610825}
   m_Layer: 0
   m_Name: Truck
   m_TagString: Player
@@ -6920,7 +6921,7 @@ MonoBehaviour:
   m_SpeedType: 0
   m_Topspeed: 100
   m_RevRangeBoundary: 1
-  m_SlipLimit: 0.3
+  m_SlipLimit: 10.08
   m_BrakeTorque: 20000
 --- !u!114 &2056004514
 MonoBehaviour:
@@ -6946,7 +6947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20fa55eb64c5cea4aa3c71ae19c434bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engineSoundStyle: 1
+  engineSoundStyle: 0
   lowAccelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
   lowDecelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
   highAccelClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
@@ -7010,6 +7011,14 @@ MonoBehaviour:
   - {fileID: 4179808030175637316}
   - {fileID: 3880579049851167216}
   - {fileID: 3051478990117679044}
+--- !u!81 &752522312072610825
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056004512}
+  m_Enabled: 1
 --- !u!1 &134458760131536386
 GameObject:
   m_ObjectHideFlags: 0
